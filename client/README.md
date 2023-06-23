@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+# Rudder WebSite Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rudder Website FrontEnd 기획 및 설명
 
-## Available Scripts
+## FrontEnd Stack
 
-In the project directory, you can run:
+기술 스택
+
+**FrontEnd** : React.js 사용
+
+## 페이지 분류
+
+### `클라이언트에게 보여지는 페이지`
+
+**메인페이지**
+**포트폴리오 리스트 페이지**
+**포트폴리오 상세 페이지**
+
+### `관리자에게만 보여지는 페이지`
+
+**관리자 로그인 페이지**
+**포트폴리오 등록 페이지**
+**포트폴리오 수정 페이지**
+**포트폴리오 삭제 페이지**
 
 ### `npm start`
 
