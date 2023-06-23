@@ -27,11 +27,11 @@ SQL : Mysql 8.0v
 | sub_content4   | varchar  | \_                        | 서브 제목 설명4        |
 | sub_title5     | varchar  | \_                        | 서브 제목5             |
 | sub_content5   | varchar  | \_                        | 서브 제목 설명5        |
-| pic1           | text     | notnull                   | 포트폴리오 메인 이미지 |
-| pic2           | text     | notnull                   | 포트폴리오 이미지2     |
-| pic3           | text     | notnull                   | 포트폴리오 이미지3     |
-| pic4           | text     | notnull                   | 포트폴리오 이미지4     |
-| pic5           | text     | notnull                   | 포트폴리오 이미지5     |
+| pic1           | text     | not null                  | 포트폴리오 메인 이미지 |
+| pic2           | text     | not null                  | 포트폴리오 이미지2     |
+| pic3           | text     | not null                  | 포트폴리오 이미지3     |
+| pic4           | text     | not null                  | 포트폴리오 이미지4     |
+| pic5           | text     | not null                  | 포트폴리오 이미지5     |
 | sub_link_title | text     | \_                        | 링크제목               |
 | sub_link_adrs  | text     | \_                        | 링크주소               |
 | write_stamp    | datetime | default current_timestamp | 포트폴리오 작성 시간   |
