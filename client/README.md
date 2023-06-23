@@ -42,65 +42,14 @@ Rudder Website FrontEnd 기획 및 설명
 
 :url/auth/delete
 
-### `npm start`
+### `페이지 정리`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| 주소              | 페이지명                              | 권한          | 설명                                         |
+| ----------------- | ------------------------------------- | ------------- | -------------------------------------------- |
+| url               | 메인페이지                            | ALL           | 도메인 접속시 가장 먼저뜨는 메인페이지       |
+| url/list          | 포트폴리오 리스트페이지               | ALL           | 관리자가 등록한 포트폴리오 리스트 확인페이지 |
+| url/portfolio/:id | 포트폴리오 상세페이지                 | ALL           | 포트폴리오 상세보기 페이지                   |
+| url/auth          | 관리자 페이지 접근                    | ADMIN(관리자) | 관리자 페이지 접근( 관리자 로그인창 view )   |
+| url/auth/write    | 포트폴리오 등록페이지                 | ADMIN(관리자) | 포트폴리오 작성페이지                        |
+| url/auth/modify   | 포트폴리오 수정페이지                 | ADMIN(관리자) | 등록된 포트폴리오 수정페이지                 |
+| url/auth/delete   | 포트폴리오 리스트 확인 및 삭제 페이지 | ADMIN(관리자) | 등록된 포트폴리오 리스트 확인 및 삭제페이지  |
