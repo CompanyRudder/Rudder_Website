@@ -1,12 +1,52 @@
-# Getting Started with Create React App
+# Rudder WebSite Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Rudder Website BackEnd 단 설명입니다.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## 사용되는 DatabaseTable 정리
+
+SQL : Mysql 8.0v
+
+### `Portfolio TABLE`
+
+| 컬럼명         | 자료형   | 조건                      | 설명                   |
+| -------------- | -------- | ------------------------- | ---------------------- |
+| idx            | int      | Primary Key               | 고유번호               |
+| title          | varchar  | not null                  | 포트폴리오 제목        |
+| date           | varchar  | not null                  | 이벤트 날짜            |
+| sub_title1     | varchar  | \_                        | 서브 제목1             |
+| sub_content1   | varchar  | \_                        | 서브 제목 설명1        |
+| sub_title2     | varchar  | \_                        | 서브 제목2             |
+| sub_content2   | varchar  | \_                        | 서브 제목 설명2        |
+| sub_title3     | varchar  | \_                        | 서브 제목3             |
+| sub_content3   | varchar  | \_                        | 서브 제목 설명3        |
+| sub_title4     | varchar  | \_                        | 서브 제목4             |
+| sub_content4   | varchar  | \_                        | 서브 제목 설명4        |
+| sub_title5     | varchar  | \_                        | 서브 제목5             |
+| sub_content5   | varchar  | \_                        | 서브 제목 설명5        |
+| pic1           | text     | notnull                   | 포트폴리오 메인 이미지 |
+| pic2           | text     | notnull                   | 포트폴리오 이미지2     |
+| pic3           | text     | notnull                   | 포트폴리오 이미지3     |
+| pic4           | text     | notnull                   | 포트폴리오 이미지4     |
+| pic5           | text     | notnull                   | 포트폴리오 이미지5     |
+| sub_link_title | text     | \_                        | 링크제목               |
+| sub_link_adrs  | text     | \_                        | 링크주소               |
+| write_stamp    | datetime | default current_timestamp | 포트폴리오 작성 시간   |
+
+### `Login TABLE`
+
+| 컬럼명 | 자료형  | 조건        | 설명     |
+| ------ | ------- | ----------- | -------- |
+| idx    | int     | Primary Key | 고유번호 |
+| id     | varchar | not null    | 아이디   |
+| pw     | varchar | not null    | 패스워드 |
+
+### `nodemon index.js` or `node index.js` 로 Backend 실행
+
+DataTable 정리 및 설명
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
