@@ -1,13 +1,13 @@
 # Rudder WebSite Description
 
-Rudder Website BackEnd 단 설명입니다.
+Rudder Website BackEnd기획 & DB설계
 
 ## BackEnd Stack
 
 기술 스택
 
 **BackEnd** : Node.js + Express 사용
-**DB** : Mysql 8.0 V
+**DB** : Mysql 8.0 Ver 사용
 
 ## 사용되는 DatabaseTable 정리 및 상세설명
 
