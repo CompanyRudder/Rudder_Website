@@ -1,5 +1,3 @@
-import AWS from "aws-sdk";
-import { useEffect, useState } from "react";
 import { useNavigate, useParams, useLocation } from "react-router-dom";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -13,7 +11,6 @@ import FormProvider, { RHFTextField } from "../../box/hook-form";
 import axios from "axios";
 
 export default function Modify_KR() {
-  const { id } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
 
