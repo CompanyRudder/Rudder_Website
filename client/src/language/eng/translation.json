@@ -1,0 +1,48 @@
+{
+  "header": {
+    "img1": "/assets/images/logoEn.png",
+    "img2": "/assets/images/logoEn.png"
+  },
+  "card": {
+    "title": "A company specializing in automotive and motorsports",
+    "title2": "related business solutions",
+    "sub_title": "Conducting business in various fields within the automobile industry, such as planning and operations of motorsports competitions and various events of auto-related companies and manufacturers.​",
+    "card1_contents1": "Planning and Operations of Branded Events",
+    "card1_contents2": "Online/offline promotional marketing​",
+    "card2_contents1": "Competition Planning/Operations​",
+    "card2_contents2": "Competition Promotion/Marketing \n​",
+    "card3_contents1": "Sim Racing Competition Planning/Operations​",
+    "card3_contents2": "Broadcast Production and Transmission​",
+    "card4_contents1": "Providing solutions through automotive industry",
+    "card4_contents2": "Partnerships and networks \n​"
+  },
+  "game": {
+    "title1": "As a game changer of the domestic auto-industry,",
+    "title2": "we are a young and innovative company ​",
+    "title3": "that strives introduce new life into this sphere,",
+    "title4": "locally and beyond.​",
+
+    "contents1": "Automanix is subsidiary of Dunamu, founder of the nation's largest digital assets exchange.",
+    "contents2": "In 2021, we hosted the AMX eSports Championship,",
+    "contents3": "the nation's largest e-sports racing competition.",
+    "contents4": "Based on the spirit of challenge and pioneering a path that no one has yet taken,​",
+    "contents5": "we will continue to pour our efforts into leading the motorsports world.",
+
+    "img1": "/assets/images/aff.png",
+    "img2": "/assets/images/dunamuEn.png",
+    "img3": "/assets/images/img-amx.png"
+  },
+  "event": {
+    "first": "Automanix",
+    "second": "works together for",
+    "third": "the success of your event."
+  },
+  "contact": {
+    "one": "Project / Event Inquiry​",
+    "two": "Investment/Sponsorship Inquiry​",
+    "three": "Employment Opportunities​"
+  },
+  "footer": {
+    "description": "Automatics Co., Ltd. | CEO : John Sanghak Lee | Address: (GIDC, A1312) 43, Iljik-ro, Gwangmyeong-si, Gyeonggi-do, South Korea | Business Registration : 319-88-01686 | Contact Number : 070-7773-9037 | Contact Email : "
+  }
+}
