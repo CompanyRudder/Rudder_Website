@@ -275,7 +275,7 @@ export default function Write_EN({ admin }) {
               paddingLeft: "3rem",
               paddingRight: "3rem",
             }}
-            color="primary"
+            color="secondary"
           >
             SAVE
           </LoadingButton>

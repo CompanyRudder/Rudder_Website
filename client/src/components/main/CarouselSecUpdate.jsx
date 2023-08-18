@@ -40,7 +40,7 @@ export default function CarouselSection() {
   }));
   const StyledRoot5 = styled("div")(({ theme }) => ({
     ...bgGradient({
-      imgUrl: "/assets/images/05.jpg",
+      imgUrl: "/assets/images/05.png",
       color: alpha(theme.palette.grey[900], 0.5),
     }),
     overflow: "hidden",
@@ -72,7 +72,7 @@ export default function CarouselSection() {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <CarouselLogo />
+        {/* <CarouselLogo /> */}
       </Box>
       <Slider {...settings}>
         <StyledRoot>

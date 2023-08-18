@@ -137,7 +137,7 @@ export default function PortfolioList({ data }) {
 
 function Portfolio({ data, i, lang }) {
   const navigate = useNavigate();
-  const url1 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${data.e_title}/${data.pic1}`;
+  const url1 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${data.e_title}/${data.pic1}`;
   return (
     <>
       <Stack

@@ -22,7 +22,7 @@ export default function Delete_KR({ data, admin }) {
   const [copydata, setCopydata] = useState([...data]);
 
   useEffect(() => {
-    "/api/portfolio".then((res) => {
+    axios.get("/api/portfolio").then((res) => {
       setCopydata(res.data);
     });
   }, [data]);

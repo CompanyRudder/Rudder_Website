@@ -30,9 +30,9 @@ export default function ScrollProgress({
         zIndex: 1999,
         position: "fixed",
         transformOrigin: "0%",
-        bgcolor: "#1888c1",
+        bgcolor: "#7A2BC9",
         ...(color === "inherit" && {
-          bgcolor: "#1888c1",
+          bgcolor: "#7A2BC9",
         }),
         ...sx,
       }}

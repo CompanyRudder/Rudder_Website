@@ -11,6 +11,7 @@ import {
   Typography,
   Box,
   Unstable_Grid2 as Grid,
+  Button,
 } from "@mui/material";
 //box
 import Image from "../../box/image/Image";
@@ -72,11 +73,11 @@ export default function DetailEN({ data, data_en }) {
     return <LoadingScreen />;
   }
 
-  const url1_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${detail.e_title}/${detail.pic1}`;
-  const url2_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${detail.e_title}/${detail.pic2}`;
-  const url3_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${detail.e_title}/${detail.pic3}`;
-  const url4_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${detail.e_title}/${detail.pic4}`;
-  const url5_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${detail.e_title}/${detail.pic5}`;
+  const url1_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${detail.e_title}/${detail.pic1}`;
+  const url2_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${detail.e_title}/${detail.pic2}`;
+  const url3_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${detail.e_title}/${detail.pic3}`;
+  const url4_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${detail.e_title}/${detail.pic4}`;
+  const url5_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${detail.e_title}/${detail.pic5}`;
 
   return (
     <>
@@ -233,6 +234,8 @@ function Header({ detail, lang }) {
 }
 
 function Summury({ detail, lang, data, data_en, id }) {
+  const navigate = useNavigate();
+
   return (
     <Stack spacing={5}>
       <div>
@@ -273,9 +276,31 @@ function Summury({ detail, lang, data, data_en, id }) {
         </Typography>
       </div>
       <Divider sx={{ borderStyle: "dashed", my: 5 }} />
-
+      <Box
+        sx={{
+          mb: { xs: 8, md: 10 },
+          textAlign: "center",
+        }}
+      >
+        <Button
+          size="large"
+          color="secondary"
+          variant="contained"
+          sx={{
+            fontFamily: "Jamsil1",
+            fontWeight: "700",
+            paddingLeft: "5rem",
+            paddingRight: "5rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+          onClick={() => navigate("/list_en")}
+        >
+          List
+        </Button>
+      </Box>
       {/* 캐러셀 */}
-      <CarouselEN data={data_en} id={id} lang={"en"} />
+      {/* <CarouselEN data={data_en} id={id} lang={"en"} /> */}
     </Stack>
   );
 }

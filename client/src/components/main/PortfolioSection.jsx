@@ -174,8 +174,8 @@ export default function PortfolioSection({ slice, slice_en, lang }) {
 
 function Portfolio({ slice, i, lang }) {
   const navigate = useNavigate();
-  const url1 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${slice.e_title}/${slice.pic1}`;
-  const url_en = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/en/${slice.e_title}/${slice.pic1}`;
+  const url1 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${slice.e_title}/${slice.pic1}`;
+  const url_en = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/en/${slice.e_title}/${slice.pic1}`;
   return (
     <>
       <Stack

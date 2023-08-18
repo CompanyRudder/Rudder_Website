@@ -111,7 +111,7 @@ export default function Modify_KR() {
               paddingLeft: "3rem",
               paddingRight: "3rem",
             }}
-            color="primary"
+            color="secondary"
           >
             UPDATE
           </LoadingButton>

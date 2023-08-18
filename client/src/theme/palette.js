@@ -27,12 +27,12 @@ const TEST = {
 };
 
 const PRIMARY = {
-  lighter: "#53a0cd",
-  light: "#53a0cd",
-  main: "#53a0cd",
-  dark: "#53a0cd",
-  darker: "#53a0cd", //53a0cd(파랑),9933cc(보라)
-  contrastText: "#FFFFFF",
+  lighter: "#7A2BC9",
+  light: "#7A2BC9",
+  main: "#7A2BC9",
+  dark: "#7A2BC9",
+  darker: "#7A2BC9", //53a0cd(파랑),9933cc(보라)
+  contrastText: "#7A2BC9",
 };
 
 const SECONDARY = {

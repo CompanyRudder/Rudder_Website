@@ -11,6 +11,7 @@ import {
   Typography,
   Box,
   Unstable_Grid2 as Grid,
+  Button,
 } from "@mui/material";
 //box
 import Image from "../../box/image/Image";
@@ -71,11 +72,11 @@ export default function Detail({ data, data_en }) {
     return <LoadingScreen />;
   }
 
-  const url1 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${detail.e_title}/${detail.pic1}`;
-  const url2 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${detail.e_title}/${detail.pic2}`;
-  const url3 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${detail.e_title}/${detail.pic3}`;
-  const url4 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${detail.e_title}/${detail.pic4}`;
-  const url5 = `https://s3.ap-northeast-2.amazonaws.com/auto-manix.com/${detail.e_title}/${detail.pic5}`;
+  const url1 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${detail.e_title}/${detail.pic1}`;
+  const url2 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${detail.e_title}/${detail.pic2}`;
+  const url3 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${detail.e_title}/${detail.pic3}`;
+  const url4 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${detail.e_title}/${detail.pic4}`;
+  const url5 = `https://s3.ap-northeast-2.amazonaws.com/rudderuni.com/${detail.e_title}/${detail.pic5}`;
 
   return (
     <>
@@ -233,6 +234,7 @@ function Header({ data, detail, lang }) {
 }
 
 function Summury({ detail, data_en, id, data }) {
+  const navigate = useNavigate();
   return (
     <Stack spacing={5}>
       <div>
@@ -273,9 +275,31 @@ function Summury({ detail, data_en, id, data }) {
         </Typography>
       </div>
       <Divider sx={{ borderStyle: "dashed", my: 5 }} />
-
-      {/* 캐러셀 */}
-      <Carousel data={data} id={id} lang={"ko"} />
+      <Box
+        sx={{
+          mb: { xs: 8, md: 10 },
+          textAlign: "center",
+        }}
+      >
+        <Button
+          size="large"
+          color="secondary"
+          variant="contained"
+          sx={{
+            fontFamily: "Jamsil1",
+            fontWeight: "700",
+            paddingLeft: "5rem",
+            paddingRight: "5rem",
+            paddingTop: "1rem",
+            paddingBottom: "1rem",
+          }}
+          onClick={() => navigate("/list")}
+        >
+          List
+        </Button>
+      </Box>
+      {/* 캐러셀(Rudder- 캐러셀 잠깐 없앰) */}
+      {/* <Carousel data={data} id={id} lang={"ko"} /> */}
     </Stack>
   );
 }

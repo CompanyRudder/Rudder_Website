@@ -33,7 +33,7 @@ export default function GameSection() {
             fontSize: "1.325rem",
           }}
         >
-          AUTOMANIX
+          RUDDER
         </Typography>
         <m.div variants={varFade().inUp}>
           <Typography

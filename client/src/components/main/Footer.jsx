@@ -25,10 +25,10 @@ export default function Footer() {
           >
             {t(`footer.description`)}
             <a href="mailto:amx_biz@auto-manix.com" style={{ color: "#222" }}>
-              amx_biz@auto-manix.com
+              abcd@rudder.com
             </a>
             <br />
-            <br />© Copyright 2023 Automanix Inc. All rights reserved.
+            <br />© Copyright 2023 RUDDER Inc. All rights reserved.
           </Typography>
         </Container>
       </Box>

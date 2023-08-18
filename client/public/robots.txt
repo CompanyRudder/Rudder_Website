@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://auto-manix.com/sitemap.xml
+Sitemap: https://rudderuni.com/sitemap.xml
