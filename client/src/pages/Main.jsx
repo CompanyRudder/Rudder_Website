@@ -7,7 +7,7 @@ import ContactSection from "../components/main/ContactSection";
 import EventSection from "../components/main/EventSection";
 import GameSection from "../components/main/GameSection";
 import MapSection from "../components/main/MapSection";
-import PartnerSection from "../components/main/PartnerSection";
+// import PartnerSection from "../components/main/PartnerSection";
 import PortfolioSection from "../components/main/PortfolioSection";
 import Footer from "../components/main/Footer";
 import i18n from "../language/i18n";
@@ -44,7 +44,7 @@ export default function Main({ slice, slice_en }) {
       <PortfolioSection slice={slice} lang={lang} slice_en={slice_en} />
       <GameSection lang={lang} />
       <EventSection lang={lang} />
-      <PartnerSection />
+      {/* <PartnerSection /> */}
       <ContactSection />
       <MapSection />
       <Footer lang={lang} />

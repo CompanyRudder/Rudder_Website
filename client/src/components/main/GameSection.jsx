@@ -93,27 +93,7 @@ export default function GameSection() {
         alignItems={{ xs: "center", md: "unset" }}
         justifyContent={{ xs: "center", md: "unset" }}
         sx={{ mt: 5 }}
-      >
-        <Box>
-          <img src={t(`game.img1`)} alt="" />
-        </Box>
-        <Box
-          sx={{ cursor: "pointer", paddingRight: 3 }}
-          onClick={() => {
-            window.open("https://dunamu.com/ko", "_blank");
-          }}
-        >
-          <img src={t(`game.img2`)} alt="" />
-        </Box>
-        <Box
-          sx={{ cursor: "pointer" }}
-          onClick={() => {
-            window.open("https://amxrace.com", "_blank");
-          }}
-        >
-          <img src={t(`game.img3`)} alt="" />
-        </Box>
-      </Stack>
+      ></Stack>
     </Container>
   );
 }

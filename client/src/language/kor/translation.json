@@ -18,7 +18,7 @@
   },
   "game": {
     "title1": "테스트 글자 테스트 텍스트 타이틀 타이틀",
-    "title2": "새로운 바람을 불어넣는 젊고 혁신적인 기업이 되겠습니다.",
+    "title2": "젊고 혁신적인 기업이 되겠습니다.",
     "title3": "",
     "title4": "",
 
@@ -26,11 +26,7 @@
     "contents2": "테스트 글자테스트 글자테스트 글자테스트 글자테스트 글자테스트 글자",
     "contents3": "테스트 글자테스트 글자테스트 글자테스트 글자테스트 글자",
     "contents4": "테스트 글자테스트 글자테스트 글자테스트 글자테스트 글자테스트 글자.",
-    "contents5": "",
-
-    "img1": "/assets/images/automanix-aff-kr.png",
-    "img2": "/assets/images/dunamuKr.png",
-    "img3": "/assets/images/img-amx.png"
+    "contents5": ""
   },
   "event": {
     "first": "RUDDER 는",
@@ -43,6 +39,6 @@
     "three": "입사 문의"
   },
   "footer": {
-    "description": "(주)RUDDER | 대표자 : 0000 | 주소 : 서울 특별시 남부순환로 43, A동 138층 13809호(미라니동, ABCD) | 사업자 등록번호 : 000-00-0000 | 대표번호 : 000-0000-0000 | 대표 이메일 : "
+    "description": "(주)RUDDER | 대표자 : 배수혁 | 주소 : 서울특별시 용산구 회나무로28길 61, 1층 방1(이태원동) | 사업자 등록번호 : 141-38-00755 "
   }
 }

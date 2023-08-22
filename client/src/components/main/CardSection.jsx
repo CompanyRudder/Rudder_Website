@@ -14,28 +14,28 @@ export default function CardSection({ lang }) {
   const { t } = useTranslation();
   const SERVICES = [
     {
-      name: "Brand Marketing",
+      name: "서비스 준비중",
       icon: "/assets/icons/icon-marketing.svg",
       content: t(`card.card1_contents1`),
       content2: t(`card.card1_contents2`),
       path: "/",
     },
     {
-      name: "Motorsports Marketing",
+      name: "서비스 준비중",
       icon: "/assets/icons/icon-motorsport.svg",
       content: t(`card.card2_contents1`),
       content2: t(`card.card2_contents2`),
       path: "/",
     },
     {
-      name: "eSports Marketing",
+      name: "서비스 준비중",
       icon: "/assets/icons/icon-esport.svg",
       content: t(`card.card3_contents1`),
       content2: t(`card.card3_contents2`),
       path: "/",
     },
     {
-      name: "Partnership Solutions",
+      name: "서비스 준비중",
       icon: "/assets/icons/icon-partmership.svg",
       content: t(`card.card4_contents1`),
       content2: t(`card.card4_contents2`),

@@ -104,7 +104,7 @@ function ContactForm() {
       };
 
       axios({
-        url: "https://script.google.com/macros/s/AKfycby7T7SvC_Cv_tzseKSGntygWyUBOmp07AbYFi3IrfGHUPmq82vrzH5Jtw3sUt78rJKm/exec",
+        url: "https://script.google.com/macros/s/AKfycbyv8aoqyCyyC05k6ZjadhL8uY27m_N2wSztGMQmlcauv6Yj1E25l54O0bqCK6NXgcuH/exec", //zinkkiiiii@gmail.com
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded;charset=utf-8",

@@ -7,14 +7,14 @@
     "title": "A company specializing in automotive and motorsports",
     "title2": "related business solutions",
     "sub_title": "Conducting business in various fields within the automobile industry, such as planning and operations of motorsports competitions and various events of auto-related companies and manufacturers.​",
-    "card1_contents1": "Planning and Operations of Branded Events",
-    "card1_contents2": "Online/offline promotional marketing​",
-    "card2_contents1": "Competition Planning/Operations​",
-    "card2_contents2": "Competition Promotion/Marketing \n​",
-    "card3_contents1": "Sim Racing Competition Planning/Operations​",
-    "card3_contents2": "Broadcast Production and Transmission​",
-    "card4_contents1": "Providing solutions through automotive industry",
-    "card4_contents2": "Partnerships and networks \n​"
+    "card1_contents1": "Preparing service...",
+    "card1_contents2": "Preparing service...​",
+    "card2_contents1": "Preparing service...​",
+    "card2_contents2": "Preparing service...​",
+    "card3_contents1": "Preparing service...​",
+    "card3_contents2": "Preparing service...​",
+    "card4_contents1": "Preparing service...",
+    "card4_contents2": "Preparing service...​"
   },
   "game": {
     "title1": "As a game changer of the domestic auto-industry,",
@@ -26,14 +26,10 @@
     "contents2": "In 2021, we hosted the AMX eSports Championship,",
     "contents3": "the nation's largest e-sports racing competition.",
     "contents4": "Based on the spirit of challenge and pioneering a path that no one has yet taken,​",
-    "contents5": "we will continue to pour our efforts into leading the motorsports world.",
-
-    "img1": "/assets/images/aff.png",
-    "img2": "/assets/images/dunamuEn.png",
-    "img3": "/assets/images/img-amx.png"
+    "contents5": "we will continue to pour our efforts into leading the motorsports world."
   },
   "event": {
-    "first": "Automanix",
+    "first": "RUDDER",
     "second": "works together for",
     "third": "the success of your event."
   },
@@ -43,6 +39,6 @@
     "three": "Employment Opportunities​"
   },
   "footer": {
-    "description": "RUDDER Co., Ltd. | CEO : 000000 | Address: (0000, 0000) 43, 0000-ro, Gwangmyeong-si, Gyeonggi-do, South Korea | Business Registration : 0000-00-0000-0 | Contact Number : 000-0000-0000 | Contact Email : "
+    "description": "RUDDER Co., Ltd. | CEO : Bae Suhyeok | Address: 61, Hoenamu-ro 28-gil, Yongsan-gu, Seoul, Republic of Korea | Business Registration : 141-38-00755 "
   }
 }
