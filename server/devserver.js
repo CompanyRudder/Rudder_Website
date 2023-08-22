@@ -26,15 +26,15 @@ const db = mysql.createPool({
 
 // cert
 const privateKey = fs.readFileSync(
-  "/etc/letsencrypt/live/auto-manix.com/privkey.pem",
+  "/etc/letsencrypt/live/rudderuni.com/privkey.pem",
   "utf8"
 );
 const certificate = fs.readFileSync(
-  "/etc/letsencrypt/live/auto-manix.com/cert.pem",
+  "/etc/letsencrypt/live/rudderuni.com/cert.pem",
   "utf8"
 );
 const ca = fs.readFileSync(
-  "/etc/letsencrypt/live/auto-manix.com/chain.pem",
+  "/etc/letsencrypt/live/rudderuni.com/chain.pem",
   "utf8"
 );
 
