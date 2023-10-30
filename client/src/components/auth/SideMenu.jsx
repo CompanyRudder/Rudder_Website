@@ -42,11 +42,11 @@ const navigations = [
     path: "/auth/delete_en",
     icon: <Iconify icon="carbon:list" />,
   },
-  {
-    title: "실시간 방문자 확인",
-    path: "/auth/visit",
-    icon: <Iconify icon="carbon:document" />,
-  },
+  // {
+  //   title: "실시간 방문자 확인",
+  //   path: "/auth/visit",
+  //   icon: <Iconify icon="carbon:document" />,
+  // },
 ];
 export default function SideMenu({ open, onClose }) {
   const isMdUp = useResponsive("up", "md");
